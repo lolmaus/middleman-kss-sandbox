@@ -1,0 +1,6 @@
+%nav.mainMenu
+  %ul.mainMenu-list
+    - @main_menu.each do |item|
+      %li.mainMenu-item
+        %a.mainMenu-link{href: item.values.first}
+          = item.keys.first

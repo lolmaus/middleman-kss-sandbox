@@ -1,0 +1,36 @@
+// Main menu
+//
+// :hover             - Subtle hover highlight.
+//
+// Styleguide 1.1
+
+// Layout
+
+.mainMenu-list
+  display: table
+  margin-left: auto
+  margin-right: auto
+
+.mainMenu-item
+  display: block
+  float: left
+
+  &:not(:last-child)
+    margin-right: 2em
+
+
+
+
+// Looks
+
+.mainMenu
+  &, a
+    color: black
+    text-decoration: none
+
+.mainMenu-item
+  &:hover
+    .mainMenu-link
+      &, a
+        color: grey
+        text-decoration: underline

@@ -56,7 +56,7 @@ set :images_dir, 'images'
 
 # KSS config
 set :markdown_engine, :redcarpet
-activate :kss, :kss_dir => 'stylesheets/partials'
+activate :kss, :kss_dir => 'stylesheets'
 
 # Build-specific configuration
 configure :build do
